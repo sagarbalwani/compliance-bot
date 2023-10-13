@@ -4,7 +4,7 @@ from langchain.chat_models import ChatOpenAI
 import sys
 import os
 
-os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = 'your-api-key'
 
 def construct_index(directory_path):
     max_input_size = 4096
